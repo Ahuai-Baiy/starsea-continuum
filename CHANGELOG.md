@@ -21,8 +21,9 @@ Breaking rename. Decision logic, order, and the 35 rules are unchanged.
 ### Docs
 
 - New guide: [What to carry into a fresh thread](docs/fresh-thread-context.md)
-  — the five context layers, budgets, what never to carry, and per-reason
-  guidance, so a thread switch stays invisible to the person.
+  — fresh instructions, current facts, a dated timeline, checkpoint and gap,
+  and the recent tail, each bound to branch and epoch; budgets, what never to
+  carry, and per-reason guidance.
 - README clarifies that rollover is a decision; the host carries the context.
 
 ## v0.3.0 — 2026-10-02

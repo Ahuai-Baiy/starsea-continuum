@@ -83,13 +83,14 @@ the [decision matrix](docs/thread-planning.md).
 
 Starting a fresh thread is only half the job. The other half is what goes
 into it — so that the person on the other side never feels the window change:
-fresh instructions, the current version of the facts, a summary of the story
-so far, a few moments kept word for word, and the last turns exactly as they
-were said.
+fresh instructions, the current version of the facts, a dated timeline, the
+latest valid checkpoint with the exact gap after it, and the last turns
+exactly as they were said. Every piece stays bound to the current branch and
+epoch, so nothing stale slips back in.
 
 Continuum makes the call; your app carries the context.
 [What to carry into a fresh thread](docs/fresh-thread-context.md) walks
-through each layer, the budgets, what must never be carried, and what to do
+through each part, the budgets, what must never be carried, and what to do
 for every reason code.
 
 ## Try it in 60 seconds
