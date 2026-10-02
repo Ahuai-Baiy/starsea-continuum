@@ -1,0 +1,32 @@
+{
+  "fixture": "synthetic_project_delivery_timeline",
+  "synthetic": true,
+  "subject": "project-orbit",
+  "scope": "release-channel",
+  "events": [
+    {
+      "time": "T1",
+      "event": "release-channel-set",
+      "value": "manual-review",
+      "generation": "gen-01"
+    },
+    {
+      "time": "T2",
+      "event": "release-channel-revised",
+      "from": "manual-review",
+      "to": "automated-staging",
+      "generation": "gen-02"
+    },
+    {
+      "time": "T3",
+      "event": "historical-incident-recorded",
+      "context_value": "manual-review",
+      "historical": true
+    }
+  ],
+  "effective_state": {
+    "at": "T3",
+    "value": "automated-staging",
+    "revision": 2
+  }
+}

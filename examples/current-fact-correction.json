@@ -1,0 +1,20 @@
+{
+  "fixture": "synthetic_current_fact_correction",
+  "synthetic": true,
+  "subject": "project-orbit",
+  "scope": "delivery-mode",
+  "selected_history": {
+    "time": "T1",
+    "statement": "delivery_mode=manual"
+  },
+  "resolved_current_state": {
+    "time": "T3",
+    "statement": "delivery_mode=automatic",
+    "revision": 2
+  },
+  "model_context": {
+    "historical_statement_preserved": true,
+    "current_state_correction": "delivery_mode is currently automatic",
+    "correction_marked": true
+  }
+}

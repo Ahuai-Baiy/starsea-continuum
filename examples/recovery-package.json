@@ -1,0 +1,35 @@
+{
+  "fixture": "synthetic_recovery_package",
+  "synthetic": true,
+  "package_id": "pkg-demo-001",
+  "provenance": {
+    "source_kind": "synthetic-event-ledger",
+    "range": [101, 108],
+    "content_digest": "sha256:<synthetic-digest>"
+  },
+  "checkpoint_ref": {
+    "id": "checkpoint-demo-04",
+    "continuity_epoch": 7,
+    "generation": "gen-demo-12"
+  },
+  "lineage": {
+    "parent": "checkpoint-demo-03",
+    "gap": [104, 105],
+    "tail": [106, 108]
+  },
+  "recovered_items": [
+    {"event_id": 101, "kind": "project-state"},
+    {"event_id": 103, "kind": "decision"},
+    {"event_id": 108, "kind": "recent-tail"}
+  ],
+  "eligibility": {
+    "recoverable": true,
+    "consumable": true,
+    "single_consume_remaining": 1
+  },
+  "currentness": {
+    "active_head": 108,
+    "binding_valid": true,
+    "authority_granted": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fixture": "synthetic_supersession_chain",
+  "synthetic": true,
+  "subject": "service-nova",
+  "scope": "deployment-mode",
+  "chain": [
+    {
+      "revision": 1,
+      "state": "A",
+      "predecessor": null,
+      "effective_from": "T1",
+      "superseded": true
+    },
+    {
+      "revision": 2,
+      "state": "B",
+      "predecessor": 1,
+      "effective_from": "T2",
+      "superseded": true
+    },
+    {
+      "revision": 3,
+      "state": "C",
+      "predecessor": 2,
+      "effective_from": "T3",
+      "superseded": false
+    }
+  ],
+  "effective_state": "C",
+  "history_preserved": true
+}
